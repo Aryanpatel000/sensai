@@ -1,2 +1,2 @@
-.next/
 prisma/
+!prisma/schema.prisma
