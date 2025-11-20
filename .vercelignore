@@ -1,2 +1,2 @@
-prisma/
+prisma/*
 !prisma/schema.prisma
