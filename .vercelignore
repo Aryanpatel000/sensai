@@ -1,2 +1,2 @@
-.next/
-node_modules/.cache
+.prisma
+node_modules/.prisma/client/schema.prisma
