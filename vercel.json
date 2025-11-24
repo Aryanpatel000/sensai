@@ -1,13 +1,7 @@
 {
   "functions": {
-    "app/**/route.js": {
-      "includeFiles": ["node_modules/.prisma/client/**"]
-    },
-    "app/**/route.ts": {
-      "includeFiles": ["node_modules/.prisma/client/**"]
-    },
-    "inngest/**": {
-      "includeFiles": ["node_modules/.prisma/client/**"]
+    "app/api/**/route.js": {
+      "includeFiles": "node_modules/.prisma/client/**"
     }
   }
 }
