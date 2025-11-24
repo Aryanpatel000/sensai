@@ -1,19 +1,15 @@
 {
   "functions": {
-    "app/**/route.js": {
-      "includeFiles": [
-        "node_modules/.prisma/client/**"
-      ]
+    "app/api/**/route.js": {
+      "includeFiles": "node_modules/.prisma/**"
     },
-    "app/**/route.ts": {
-      "includeFiles": [
-        "node_modules/.prisma/client/**"
-      ]
-    },
-    "inngest/**": {
-      "includeFiles": [
-        "node_modules/.prisma/client/**"
-      ]
+    "app/api/**/route.ts": {
+      "includeFiles": "node_modules/.prisma/**"
+    }
+  },
+  "build": {
+    "env": {
+      "PRISMA_GENERATE_SKIP_AUTOINSTALL": "true"
     }
   }
 }
