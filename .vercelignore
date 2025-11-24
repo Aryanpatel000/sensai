@@ -1,3 +1,2 @@
-prisma/
-node_modules/.prisma/client/query_engine*
 node_modules/@prisma/engines
+node_modules/.prisma/client/query_engine*
