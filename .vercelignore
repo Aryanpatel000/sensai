@@ -1,2 +1,16 @@
-node_modules/@prisma/engines
-node_modules/.prisma/client/query_engine*
+# Ignore server-side build artifacts
+.next
+.vercel
+.git
+.vscode
+public
+components
+actions
+proxy.ts
+
+# DO NOT IGNORE Prisma engines
+# .prisma     ❌ (DO NOT IGNORE)
+# node_modules/.prisma ❌ (DO NOT IGNORE)
+
+# Ignore only top-level node_modules (Vercel installs fresh)
+node_modules
